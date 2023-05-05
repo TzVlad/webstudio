@@ -52,6 +52,7 @@ body {
 }
 .hero {
     background-color:#2F303A;
+
     
 }
 .hero-title {
@@ -64,12 +65,12 @@ body {
     color: #FFFFFF;
 }
 .hero-btn {
+    display: flex;
     width: 216px;
     height: 50px;
     background: #2196F3;
     box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
     border-radius: 4px;
-
     font-weight: 700;
     font-size: 16px;
     line-height: 1.88;
@@ -78,6 +79,10 @@ body {
     letter-spacing: 0.06em;
     justify-content: center;
     color: #FFFFFF;
+}
+.btn {
+    display: flex;
+    justify-content: center;
 }
 
 .namecl {
